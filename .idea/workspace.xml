@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9746c3b8-b7cb-441d-847a-4cd5c6faed0f" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/main/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/main/Ex1.java" afterDir="false" />
-    </list>
+    <list default="true" id="9746c3b8-b7cb-441d-847a-4cd5c6faed0f" name="Changes" comment="first commits" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,6 +18,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -70,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1664100844035</updated>
       <workItem from="1664100845588" duration="1845000" />
-      <workItem from="1664103046818" duration="4149000" />
+      <workItem from="1664103046818" duration="4464000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1664107914301</created>
@@ -79,7 +76,49 @@
       <option name="project" value="LOCAL" />
       <updated>1664107914301</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commits">
+      <created>1664109205824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1664109205824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="first commits">
+      <created>1664109229683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664109229683</updated>
+    </task>
+    <task id="LOCAL-00004" summary="first commits">
+      <created>1664109236611</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664109236611</updated>
+    </task>
+    <task id="LOCAL-00005" summary="first commits">
+      <created>1664109278826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1664109278826</updated>
+    </task>
+    <task id="LOCAL-00006" summary="first commits">
+      <created>1664109297848</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1664109297848</updated>
+    </task>
+    <task id="LOCAL-00007" summary="first commits">
+      <created>1664109306331</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1664109306331</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -88,16 +127,33 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="MAIN">
+        <entry key="5bf97383-e04d-4ff9-803b-f9c327cb4718">
           <value>
             <State />
           </value>
         </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="5bf97383-e04d-4ff9-803b-f9c327cb4718" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="first commits" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commits" />
   </component>
 </project>
