@@ -1,7 +1,9 @@
 package com.example.main;
 
 import com.example.beans.Vehicle;
+import com.example.beans.VehicleAnnotation;
 import com.example.config.ProjectConfig;
+import com.example.config.ProjectConfigAnnotation;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class Ex1 {
@@ -13,5 +15,12 @@ public class Ex1 {
         String st = context.getBean(String.class);
         System.out.println(st);
 
+
+
+        var contexts=new AnnotationConfigApplicationContext(ProjectConfigAnnotation.class);
+        VehicleAnnotation v=contexts.getBean(VehicleAnnotation.class);
+        v.display();
+        System.out.println("I love You"+v.getName());
+        contexts.close();
     }
 }
