@@ -1,6 +1,7 @@
 package com.example.beans;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
@@ -12,9 +13,9 @@ public class Person {
     // This type of autowiring(with constructor ) is recommended
     //since we can make vehicle bean as final only with this approach
     @Autowired
-    public Person(Vehicle vehicle){
+    public Person(@Qualifier("vehicle3") Vehicle vehicle2){
         System.out.println("Person Bean Created");
-        this.vehicle=vehicle;
+        this.vehicle=vehicle2;
     }
 
     public String getName() {

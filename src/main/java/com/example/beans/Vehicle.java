@@ -1,13 +1,26 @@
 package com.example.beans;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
 public class Vehicle {
 
-    private String name="Audi";
+    private String name = "Audi";
 
-    public Vehicle(){
+    //CD
+//    public Person getPerson() {
+//        return person;
+//    }
+//
+//    public void setPerson(Person person) {
+//        this.person = person;
+//    }
+//
+//    @Autowired
+//    private Person person;
+
+    public Vehicle() {
         System.out.println("Vehicle Bean Created");
     }
 
@@ -19,13 +32,13 @@ public class Vehicle {
         this.name = name;
     }
 
-    public void display(){
-        System.out.println("I have "+name);
+    public void display() {
+        System.out.println("I have " + name);
     }
 
     @Override
     public String toString() {
-        return  name;
+        return name;
 
     }
 }

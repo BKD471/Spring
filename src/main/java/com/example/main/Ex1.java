@@ -20,11 +20,11 @@ public class Ex1 {
         System.out.println(st);*/
 
 
-        var contexts = new AnnotationConfigApplicationContext(ProjectConfigAnnotation.class);
-        VehicleAnnotation v = contexts.getBean(VehicleAnnotation.class);
-        v.display();
-        System.out.println("I love You" + v.getName());
-        contexts.close();
+//        var contexts = new AnnotationConfigApplicationContext(ProjectConfigAnnotation.class);
+//        VehicleAnnotation v = contexts.getBean(VehicleAnnotation.class);
+//        v.display();
+//        System.out.println("I love You" + v.getName());
+//        contexts.close();
 
 
         /*var contextRegisterBean = new AnnotationConfigApplicationContext(ProjectConfig.class);
@@ -68,13 +68,19 @@ public class Ex1 {
         if(MercidezVehicle!=null) MercidezVehicle.display();*/
 
 
+//        var autoContext=new AnnotationConfigApplicationContext(ProjectConfigAnnotation.class);
+//        Vehicle vo=autoContext.getBean(Vehicle.class);
+//        Person ps=autoContext.getBean(Person.class);
+//        System.out.println("I am "+ps.getName());
+//        System.out.println("Cr "+vo.getName());
+//        System.out.println("I have "+ps.getVehicle());
 
-        var autoContext=new AnnotationConfigApplicationContext(ProjectConfigAnnotation.class);
-        Vehicle vo=autoContext.getBean(Vehicle.class);
-        Person ps=autoContext.getBean(Person.class);
-        System.out.println("I am "+ps.getName());
-        System.out.println("Cr "+vo.getName());
-        System.out.println("I have "+ps.getVehicle());
-}
+        var multiBeanOfSameTypeContext = new AnnotationConfigApplicationContext(ProjectConfigAnnotation.class);
+        Person p = multiBeanOfSameTypeContext.getBean(Person.class);
+        System.out.println("I am " + p.getName());
+        System.out.println("I have " + p.getVehicle());
+
+
+    }
 }
 

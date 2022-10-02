@@ -7,9 +7,10 @@ import org.springframework.context.annotation.Primary;
 
 @Configuration
 public class ProjectConfig {
-    @Bean
+
     //method name is the bean name
         // and it creates a bean named vehicle inside the context
+    @Bean
    Vehicle vehicle1(){
        var veh=new Vehicle();
        veh.setName("Mercidez");

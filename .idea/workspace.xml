@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9746c3b8-b7cb-441d-847a-4cd5c6faed0f" name="Changes" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beans/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/beans/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/beans/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfigAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/config/ProjectConfigAnnotation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/main/Ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/main/Ex1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;79b9a98f9bf65e80bb4b25cbcf5cb0bf&quot;
   }
@@ -84,7 +87,9 @@
       <workItem from="1664609104572" duration="3129000" />
       <workItem from="1664620355319" duration="1083000" />
       <workItem from="1664623352879" duration="924000" />
-      <workItem from="1664631407579" duration="2589000" />
+      <workItem from="1664631407579" duration="2712000" />
+      <workItem from="1664694729630" duration="4824000" />
+      <workItem from="1664714385453" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1664107914301</created>
